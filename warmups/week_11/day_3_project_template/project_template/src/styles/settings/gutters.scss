@@ -1,0 +1,28 @@
+/*
+ *  Gutters
+ *    Settings for the various gutters
+ *
+ */
+$s-gutter--base: 0.5rem;
+
+$s-gutter--xsmall: $s-gutter--base;
+$s-gutter--small: $s-gutter--base * 3;
+$s-gutter--medium: $s-gutter--base * 6;
+$s-gutter--large: $s-gutter--base * 10;
+$s-gutter--xlarge: $s-gutter--base * 20;
+$s-gutter--xxlarge: $s-gutter--base * 30;
+
+// Horizontal gutter to edge of screen
+$s-gutter--edge-mobile: 0.75rem;
+$s-gutter--edge-mobile-alt: 1.5rem;
+$s-gutter--edge-small: 1.875rem;
+$s-gutter--edge-medium: 5.85%;
+$s-gutter--edge-medium-alt: #{'min(2%, 2.5rem)'};
+$s-gutter--edge-xlarge: #{'min(9.5%, 11.875rem)'};
+$s-gutter--edge-xlarge-alt: #{'min(3%, 3.75rem)'};
+
+// Vertical gutter above and below sections
+$s-gutter--section-v-medium: 8.75%;
+$s-gutter--section-v-medium-alt: 0.5rem;
+$s-gutter--section-v-xlarge: #{'min(9.4%, 11.5rem)'};
+$s-gutter--section-v-xlarge-alt: 1rem;
